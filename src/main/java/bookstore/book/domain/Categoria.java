@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.*;
 import org.hibernate.validator.constraints.Length;
-
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
