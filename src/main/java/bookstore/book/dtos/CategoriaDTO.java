@@ -1,15 +1,11 @@
 package bookstore.book.dtos;
 
 import bookstore.book.domain.Categoria;
-import bookstore.book.domain.Livro;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.Length;
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -32,6 +28,4 @@ public class CategoriaDTO implements Serializable {
         this.nome = obj.getNome();
         this.descricao = obj.getDescricao();
     }
-
-
 }
